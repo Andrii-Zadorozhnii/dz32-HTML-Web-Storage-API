@@ -1,0 +1,55 @@
+body {
+  background-image: url("../images/clouds-stars-sun-blue-background-childrens-vector-illustration-sky_153074-219.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.card {
+  padding: 30px;
+  min-width: 80px;
+  max-width: 400px;
+  width: 100%;
+  min-height: 500px;
+  max-height: 1000px;
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shadow {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.city-name__input {
+  border-radius: 5px;
+  width: 70%;
+  text-align: center;
+  height: 30px;
+  font: 500 20px arial, helvetica, sans-serif;
+  border: 0px;
+  border-bottom: 3px solid;
+  margin-bottom: 50px;
+}
+.city-name__name {
+  color: black;
+  margin-bottom: 50px;
+}
+.city-name__image {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.city-name__pressure {
+  margin-bottom: 50px;
+}
+.city-name__temperature {
+  margin-bottom: 50px;
+}/*# sourceMappingURL=styles.css.map */
